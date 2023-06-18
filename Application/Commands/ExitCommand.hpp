@@ -7,7 +7,6 @@
 
 #include "ICommand.hpp"
 #include "../Application.hpp"
-#include "../Application.cpp"
 #include <memory>
 
 namespace Commands {

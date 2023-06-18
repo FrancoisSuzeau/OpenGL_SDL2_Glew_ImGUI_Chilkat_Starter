@@ -53,7 +53,7 @@ void Engine::MainLoop()
 
             ImGui::Begin("Settings", NULL, window_flags);
 
-            exit = ImGui::Button("Stop Simulation", ImVec2(385.0f, 30.0f));
+            exit = ImGui::Button("Exit", ImVec2(385.0f, 30.0f));
 
             ImGui::End();
 

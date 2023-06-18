@@ -32,9 +32,6 @@
     <ClCompile Include="IoC\Container\Container.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IoC\Instance\Instance.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="IoC\IocModule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -17,7 +17,10 @@ namespace IoC {
 		class Instance : public IInstance
 		{
 		public:
-			Instance(T* ptr);
+			Instance(T* ptr) : m_ptr(ptr)
+			{
+
+			}
 			std::shared_ptr<T> m_ptr;
 		};
 	}

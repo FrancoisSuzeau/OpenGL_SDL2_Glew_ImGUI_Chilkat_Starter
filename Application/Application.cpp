@@ -20,21 +20,6 @@ Application::Application()
         assert(m_engine_builder);
     }
 }
-template<typename T>
-void Application::SetServiceBuilder()
-{
-    std::unique_ptr<IoC::IocModule> ioc_module = std::make_unique<IoC::IocModule>();
-    ioc_module->LoadService<T>(m_service_builder);
-    ioc_module.reset();
-}
-
-template<typename T>
-void Application::SetEngineBuilder()
-{
-    std::unique_ptr<IoC::IocModule> ioc_module = std::make_unique<IoC::IocModule>();
-    ioc_module->LoadEngine<T>(m_engine_builder);
-    ioc_module.reset();
-}
 
 void Application::EndingBuilders()
 {
